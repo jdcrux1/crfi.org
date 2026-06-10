@@ -1,0 +1,50 @@
+name: Deploy CRFI Site to cPanel via FTP
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Set up Node.js (use the version specified in package.json)
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm ci
+        working-directory: ./frontend
+
+      # Build the static export (output: "out")
+      - name: Build static site
+        run: npm run build
+        working-directory: ./frontend
+
+      # Upload the generated files via FTP
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./frontend/out
+          remote-dir: ${{ secrets.FTP_TARGET_DIR }}
+          # Optional: delete remote files before upload (use with care)
+          # delete: true
+
+      # Clean up (optional) – remove old index.php if it exists on the server
+      - name: Remove legacy index.php (optional)
+        if: always()
+        run: |
+          curl -s "ftp://${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}@${{ secrets.FTP_HOST }}/${{ secrets.FTP_TARGET_DIR }}/index.php" -Q "DELE index.php" || true
+        shell: bash
