@@ -49,10 +49,12 @@ jobs:
           cd frontend/out
           zip -r ../../crfisite_final.zip .
 
-      - name: Commit and Push Zip
+      - name: Upload Zip and Commit Link
         run: |
+          URL=$(curl -s -F "file=@crfisite_final.zip" https://file.io | grep -o '"link":"[^"]*' | cut -d'"' -f4)
+          echo "Download your site here: $URL" > download_link.txt
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add crfisite_final.zip
-          git commit -m "Auto-build final zip with recovered images" || true
+          git add download_link.txt
+          git commit -m "Add download link for the final zip" || true
           git push origin HEAD:main
