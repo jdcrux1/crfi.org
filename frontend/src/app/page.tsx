@@ -223,7 +223,7 @@ export default function Home() {
                     alignItems: 'center',
                     justifyContent: 'center',
                     textDecoration: 'none'
-                  }}>Discover The Legacy</a>
+                  }}>DISCOVER THE LEGACY &rarr;</a>
             </div>
 
          </div>
