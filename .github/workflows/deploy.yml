@@ -31,9 +31,8 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./frontend/out
-          remote-dir: ${{ secrets.FTP_TARGET_DIR }}
-          mirror: true
+          local-dir: ./frontend/out/
+          server-dir: ${{ secrets.FTP_TARGET_DIR }}/
           exclude: "node_modules/**"
 
       - name: Remove legacy index.php if present
