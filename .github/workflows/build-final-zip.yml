@@ -40,9 +40,14 @@ jobs:
           FTP_USER: ${{ secrets.FTP_USERNAME }}
           FTP_PASS: ${{ secrets.FTP_PASSWORD }}
         run: |
-          cd frontend
-          npm install basic-ftp
-          node download_images.js
+          mkdir -p frontend/out/images
+          python download_all_images.py > ftp_log.txt 2>&1 || true
+          echo "## FTP Log" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          head -n 50 ftp_log.txt >> $GITHUB_STEP_SUMMARY
+          echo "..." >> $GITHUB_STEP_SUMMARY
+          tail -n 50 ftp_log.txt >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Create Zip Archive
         run: |
