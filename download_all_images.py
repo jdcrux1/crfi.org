@@ -5,11 +5,12 @@ host = os.environ.get('FTP_HOST')
 user = os.environ.get('FTP_USER')
 password = os.environ.get('FTP_PASS')
 
-def download_ftp(ftp, path, local_dir):
+def download_recursive(ftp, current_local_dir):
     try:
-        os.makedirs(local_dir, exist_ok=True)
+        os.makedirs(current_local_dir, exist_ok=True)
         lines = []
-        ftp.dir(path, lines.append)
+        ftp.dir("", lines.append) # List current directory securely
+        
         for line in lines:
             parts = line.split()
             if len(parts) < 9:
@@ -17,33 +18,42 @@ def download_ftp(ftp, path, local_dir):
             name = " ".join(parts[8:])
             if name in ('.', '..'):
                 continue
+            
             is_dir = line.startswith('d')
-            full_path = f"{path}/{name}" if path else name
             
             if is_dir:
-                print(f"Directory: {full_path}")
-                download_ftp(ftp, full_path, os.path.join(local_dir, name))
+                print(f"Entering directory {name}")
+                try:
+                    ftp.cwd(name)
+                    download_recursive(ftp, os.path.join(current_local_dir, name))
+                    ftp.cwd('..')
+                except Exception as e:
+                    print(f"Failed to enter directory {name}: {e}")
             else:
                 if name.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.svg')):
-                    local_file_path = os.path.join(local_dir, name)
-                    print(f"Downloading {full_path} to {local_file_path}...")
+                    local_file_path = os.path.join(current_local_dir, name)
+                    print(f"Downloading {name} to {local_file_path}...")
                     try:
                         with open(local_file_path, "wb") as f:
-                            ftp.retrbinary(f"RETR {full_path}", f.write)
+                            ftp.retrbinary(f"RETR {name}", f.write)
                     except Exception as e:
-                        print(f"Error downloading {full_path}: {e}")
+                        print(f"Error downloading {name}: {e}")
     except Exception as e:
-        print(f"Error reading {path}: {e}")
+        print(f"Error reading directory contents: {e}")
 
 def run_download():
     try:
         print("Connecting to FTP...")
         ftp = ftplib.FTP(host)
         ftp.login(user, password)
-        print("Logged in successfully. Starting robust recursive download...")
+        print("Logged in successfully.")
         
-        # Download from /images to frontend/out/images
-        download_ftp(ftp, "/images", "frontend/out/images")
+        # We must physically move to /images first
+        ftp.cwd("/images")
+        print("Moved to /images. Starting perfect relative recursive download...")
+        
+        # Start recursion
+        download_recursive(ftp, "frontend/out/images")
         
         ftp.quit()
         print("Download complete.")
