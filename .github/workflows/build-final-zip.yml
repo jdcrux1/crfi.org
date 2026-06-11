@@ -41,8 +41,7 @@ jobs:
           FTP_PASS: ${{ secrets.FTP_PASSWORD }}
         run: |
           mkdir -p frontend/out/images
-          cd frontend/out/images
-          wget -r -nH --cut-dirs=1 --user="$FTP_USER" --password="$FTP_PASS" "ftp://$FTP_HOST/images/" || true
+          python download_all_images.py
 
       - name: Create Zip Archive
         run: |
