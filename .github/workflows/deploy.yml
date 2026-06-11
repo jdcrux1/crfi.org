@@ -25,6 +25,19 @@ jobs:
         run: npm run build
         working-directory: ./frontend
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Prepare Deployment
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USERNAME }}
+          FTP_PASS: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          python prepare_deploy.py
+
       - name: Deploy via FTP
         uses: samkirkland/ftp-deploy-action@v4.3.4
         with:
@@ -37,7 +50,6 @@ jobs:
             **/.git*
             **/.git*/**
             **/node_modules/**
-            images/**
             media/**
 
       - name: Remove legacy index.php if present
