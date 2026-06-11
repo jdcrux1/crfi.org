@@ -2,8 +2,9 @@ name: Build Final Zip
 
 on:
   push:
-    paths:
-      - 'download_all_images.py'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   build:
