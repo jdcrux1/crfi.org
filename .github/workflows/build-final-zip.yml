@@ -40,8 +40,9 @@ jobs:
           FTP_USER: ${{ secrets.FTP_USERNAME }}
           FTP_PASS: ${{ secrets.FTP_PASSWORD }}
         run: |
+          sudo apt-get update && sudo apt-get install -y lftp
           mkdir -p frontend/out/images
-          python download_all_images.py
+          lftp -u "$FTP_USER","$FTP_PASS" -e "mirror /images frontend/out/images; quit" "$FTP_HOST"
 
       - name: Create Zip Archive
         run: |
