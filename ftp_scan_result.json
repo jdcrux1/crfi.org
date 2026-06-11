@@ -1,0 +1,2932 @@
+{
+  "pwd": "/",
+  "tree": {
+    ".ftp-deploy-sync-state.json": {
+      "type": "file",
+      "size": "57842"
+    },
+    ".ftpquota": {
+      "type": "file",
+      "size": "4"
+    },
+    "404.html": {
+      "type": "file",
+      "size": "22477"
+    },
+    "__next.__PAGE__.txt": {
+      "type": "file",
+      "size": "1144"
+    },
+    "__next._full.txt": {
+      "type": "file",
+      "size": "6916"
+    },
+    "__next._head.txt": {
+      "type": "file",
+      "size": "2859"
+    },
+    "__next._index.txt": {
+      "type": "file",
+      "size": "2112"
+    },
+    "__next._tree.txt": {
+      "type": "file",
+      "size": "358"
+    },
+    "_next": {
+      "m1BWZp01sAbMkqO0ZKYIH": {},
+      "static": {
+        "chunks": {
+          "type": "directory",
+          "truncated": true
+        },
+        "m1BWZp01sAbMkqO0ZKYIH": {
+          "type": "directory",
+          "truncated": true
+        },
+        "media": {
+          "type": "directory",
+          "truncated": true
+        }
+      }
+    },
+    "_not-found": {
+      "__next._full.txt": {
+        "type": "file",
+        "size": "7057"
+      },
+      "__next._head.txt": {
+        "type": "file",
+        "size": "2910"
+      },
+      "__next._index.txt": {
+        "type": "file",
+        "size": "2112"
+      },
+      "__next._not-found.__PAGE__.txt": {
+        "type": "file",
+        "size": "1144"
+      },
+      "__next._not-found.txt": {
+        "type": "file",
+        "size": "605"
+      },
+      "__next._tree.txt": {
+        "type": "file",
+        "size": "319"
+      }
+    },
+    "_not-found.html": {
+      "type": "file",
+      "size": "22477"
+    },
+    "_not-found.txt": {
+      "type": "file",
+      "size": "7057"
+    },
+    "about": {
+      "__next._full.txt": {
+        "type": "file",
+        "size": "7334"
+      },
+      "__next._head.txt": {
+        "type": "file",
+        "size": "2859"
+      },
+      "__next._index.txt": {
+        "type": "file",
+        "size": "2112"
+      },
+      "__next._tree.txt": {
+        "type": "file",
+        "size": "427"
+      },
+      "__next.about.__PAGE__.txt": {
+        "type": "file",
+        "size": "1144"
+      },
+      "__next.about.txt": {
+        "type": "file",
+        "size": "605"
+      }
+    },
+    "about-us": {
+      "articles-of-faith": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7768"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "511"
+        },
+        "__next.about-us.articles-of-faith.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.about-us.articles-of-faith.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.about-us.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "articles-of-faith.html": {
+        "type": "file",
+        "size": "30073"
+      },
+      "articles-of-faith.txt": {
+        "type": "file",
+        "size": "7768"
+      },
+      "foundation-scripture": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7774"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "514"
+        },
+        "__next.about-us.foundation-scripture.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.about-us.foundation-scripture.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.about-us.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "foundation-scripture.html": {
+        "type": "file",
+        "size": "27108"
+      },
+      "foundation-scripture.txt": {
+        "type": "file",
+        "size": "7774"
+      },
+      "mission-vision": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7762"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "508"
+        },
+        "__next.about-us.mission-vision.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.about-us.mission-vision.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.about-us.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "mission-vision.html": {
+        "type": "file",
+        "size": "27896"
+      },
+      "mission-vision.txt": {
+        "type": "file",
+        "size": "7762"
+      },
+      "our-objects": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7756"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "505"
+        },
+        "__next.about-us.our-objects.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.about-us.our-objects.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.about-us.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "our-objects.html": {
+        "type": "file",
+        "size": "31180"
+      },
+      "our-objects.txt": {
+        "type": "file",
+        "size": "7756"
+      },
+      "profile-of-the-visionary": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7782"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "518"
+        },
+        "__next.about-us.profile-of-the-visionary.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.about-us.profile-of-the-visionary.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.about-us.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "profile-of-the-visionary.html": {
+        "type": "file",
+        "size": "27496"
+      },
+      "profile-of-the-visionary.txt": {
+        "type": "file",
+        "size": "7782"
+      },
+      "visionary-s-inaugural-speech-in-1990": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7806"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "530"
+        },
+        "__next.about-us.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.about-us.visionary-s-inaugural-speech-in-1990.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.about-us.visionary-s-inaugural-speech-in-1990.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "visionary-s-inaugural-speech-in-1990.html": {
+        "type": "file",
+        "size": "27390"
+      },
+      "visionary-s-inaugural-speech-in-1990.txt": {
+        "type": "file",
+        "size": "7806"
+      },
+      "why-crfi": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7750"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "502"
+        },
+        "__next.about-us.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.about-us.why-crfi.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.about-us.why-crfi.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "why-crfi.html": {
+        "type": "file",
+        "size": "32576"
+      },
+      "why-crfi.txt": {
+        "type": "file",
+        "size": "7750"
+      }
+    },
+    "about.html": {
+      "type": "file",
+      "size": "29381"
+    },
+    "about.txt": {
+      "type": "file",
+      "size": "7334"
+    },
+    "administrator": {
+      "cache": {
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        }
+      },
+      "components": {
+        "com_actionlogs": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_acymailing": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_admin": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_ajax": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_akeeba": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_associations": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_banners": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_cache": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_categories": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_checkin": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_config": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_contact": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_content": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_contenthistory": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_cpanel": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_fields": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_finder": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_installer": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_joomlaupdate": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_languages": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_login": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_media": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_menus": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_messages": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_modules": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_newsfeeds": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_osgallery": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_plugins": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_postinstall": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_privacy": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_redirect": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_search": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_sppagebuilder": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_spsimpleportfolio": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_tags": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_templates": {
+          "type": "directory",
+          "truncated": true
+        },
+        "com_users": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        }
+      },
+      "error_log": {
+        "type": "file",
+        "size": "3986"
+      },
+      "help": {
+        "en-GB": {
+          "type": "directory",
+          "truncated": true
+        },
+        "helpsites.xml": {
+          "type": "file",
+          "size": "229"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        }
+      },
+      "images": {
+        "2016": {
+          "type": "directory",
+          "truncated": true
+        },
+        "LICENSE.txt": {
+          "type": "file",
+          "size": "16585"
+        },
+        "_spmedia_thumbs": {
+          "type": "directory",
+          "truncated": true
+        },
+        "banners": {
+          "type": "directory",
+          "truncated": true
+        },
+        "blog": {
+          "type": "directory",
+          "truncated": true
+        },
+        "client-bg.png": {
+          "type": "file",
+          "size": "57071"
+        },
+        "client1.png": {
+          "type": "file",
+          "size": "4494"
+        },
+        "client2.png": {
+          "type": "file",
+          "size": "2286"
+        },
+        "client3.png": {
+          "type": "file",
+          "size": "3144"
+        },
+        "client4.png": {
+          "type": "file",
+          "size": "3835"
+        },
+        "com_osgallery": {
+          "type": "directory",
+          "truncated": true
+        },
+        "compatible.png": {
+          "type": "file",
+          "size": "9807"
+        },
+        "corporate.jpg": {
+          "type": "file",
+          "size": "54917"
+        },
+        "corporate1.jpg": {
+          "type": "file",
+          "size": "102717"
+        },
+        "cta-bg.jpg": {
+          "type": "file",
+          "size": "86293"
+        },
+        "demo": {
+          "type": "directory",
+          "truncated": true
+        },
+        "favicon.png": {
+          "type": "file",
+          "size": "12794"
+        },
+        "feature-bg1.jpg": {
+          "type": "file",
+          "size": "93036"
+        },
+        "featured-bg2.jpg": {
+          "type": "file",
+          "size": "132199"
+        },
+        "go_visionary.jpg": {
+          "type": "file",
+          "size": "70620"
+        },
+        "headers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "inaugration.jpg": {
+          "type": "file",
+          "size": "266408"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "joomla_black.gif": {
+          "type": "file",
+          "size": "3746"
+        },
+        "joomla_green.gif": {
+          "type": "file",
+          "size": "3143"
+        },
+        "joomla_logo_black.jpg": {
+          "type": "file",
+          "size": "8502"
+        },
+        "logo.png": {
+          "type": "file",
+          "size": "21899"
+        },
+        "mission-vision.jpg": {
+          "type": "file",
+          "size": "73539"
+        },
+        "our-objects.jpg": {
+          "type": "file",
+          "size": "135382"
+        },
+        "outreaches.jpg": {
+          "type": "file",
+          "size": "89624"
+        },
+        "pastor-adeboye-rccg.jpg": {
+          "type": "file",
+          "size": "68463"
+        },
+        "powered_by.png": {
+          "type": "file",
+          "size": "2301"
+        },
+        "sampledata": {
+          "type": "directory",
+          "truncated": true
+        },
+        "scripture.jpg": {
+          "type": "file",
+          "size": "78987"
+        },
+        "showcase": {
+          "type": "directory",
+          "truncated": true
+        },
+        "slide1.png": {
+          "type": "file",
+          "size": "92631"
+        },
+        "slider.jpg": {
+          "type": "file",
+          "size": "16836"
+        },
+        "slider_adeboye.jpg": {
+          "type": "file",
+          "size": "85517"
+        },
+        "slider_people2.jpg": {
+          "type": "file",
+          "size": "209333"
+        },
+        "sppagebuilder": {
+          "type": "directory",
+          "truncated": true
+        },
+        "spsimpleportfolio": {
+          "type": "directory",
+          "truncated": true
+        },
+        "testimonial.png": {
+          "type": "file",
+          "size": "13668"
+        },
+        "vision-mission2.jpg": {
+          "type": "file",
+          "size": "39374"
+        },
+        "vision-mission3.jpg": {
+          "type": "file",
+          "size": "204560"
+        }
+      },
+      "includes": {
+        "defines.php": {
+          "type": "file",
+          "size": "1056"
+        },
+        "framework.php": {
+          "type": "file",
+          "size": "2900"
+        },
+        "helper.php": {
+          "type": "file",
+          "size": "991"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "subtoolbar.php": {
+          "type": "file",
+          "size": "4371"
+        }
+      },
+      "index.php": {
+        "type": "file",
+        "size": "1529"
+      },
+      "language": {
+        "ar-AA": {
+          "type": "directory",
+          "truncated": true
+        },
+        "en-GB": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "55"
+        },
+        "overrides": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "logs": {
+        "1.error.php": {
+          "type": "file",
+          "size": "2340855"
+        },
+        "1.joomla_update.php": {
+          "type": "file",
+          "size": "28228"
+        }
+      },
+      "manifests": {
+        "files": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "libraries": {
+          "type": "directory",
+          "truncated": true
+        },
+        "packages": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "modules": {
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_custom": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_feed": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_latest": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_latestactions": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_logged": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_login": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_menu": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_multilangstatus": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_popular": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_privacy_dashboard": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_quickicon": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_sampledata": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_sppagebuilder_admin_menu": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_sppagebuilder_icons": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_stats_admin": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_status": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_submenu": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_title": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_toolbar": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_version": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "templates": {
+        "hathor": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "isis": {
+          "type": "directory",
+          "truncated": true
+        },
+        "system": {
+          "type": "directory",
+          "truncated": true
+        }
+      }
+    },
+    "bin": {
+      "index.html": {
+        "type": "file",
+        "size": "31"
+      },
+      "keychain.php": {
+        "type": "file",
+        "size": "8395"
+      }
+    },
+    "components": {
+      "com_acymailing": {
+        "acymailing.php": {
+          "type": "file",
+          "size": "2399"
+        },
+        "controllers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "inc": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "44"
+        },
+        "params": {
+          "type": "directory",
+          "truncated": true
+        },
+        "router.php": {
+          "type": "file",
+          "size": "2196"
+        },
+        "sef_ext": {
+          "type": "directory",
+          "truncated": true
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_ajax": {
+        "ajax.php": {
+          "type": "file",
+          "size": "6501"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        }
+      },
+      "com_akeeba": {
+        "Controller": {
+          "type": "directory",
+          "truncated": true
+        },
+        "Dispatcher": {
+          "type": "directory",
+          "truncated": true
+        },
+        "Model": {
+          "type": "directory",
+          "truncated": true
+        },
+        "akeeba.php": {
+          "type": "file",
+          "size": "522"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "54"
+        }
+      },
+      "com_banners": {
+        "banners.php": {
+          "type": "file",
+          "size": "408"
+        },
+        "controller.php": {
+          "type": "file",
+          "size": "729"
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "router.php": {
+          "type": "file",
+          "size": "2714"
+        }
+      },
+      "com_config": {
+        "config.php": {
+          "type": "file",
+          "size": "677"
+        },
+        "controller": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "model": {
+          "type": "directory",
+          "truncated": true
+        },
+        "view": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_contact": {
+        "contact.php": {
+          "type": "file",
+          "size": "862"
+        },
+        "controller.php": {
+          "type": "file",
+          "size": "2211"
+        },
+        "controllers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "layouts": {
+          "type": "directory",
+          "truncated": true
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "router.php": {
+          "type": "file",
+          "size": "6268"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_content": {
+        "content.php": {
+          "type": "file",
+          "size": "1632"
+        },
+        "controller.php": {
+          "type": "file",
+          "size": "3332"
+        },
+        "controllers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "router.php": {
+          "type": "file",
+          "size": "6853"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_contenthistory": {
+        "contenthistory.php": {
+          "type": "file",
+          "size": "669"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        }
+      },
+      "com_fields": {
+        "controller.php": {
+          "type": "file",
+          "size": "1176"
+        },
+        "fields.php": {
+          "type": "file",
+          "size": "1017"
+        },
+        "layouts": {
+          "type": "directory",
+          "truncated": true
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_finder": {
+        "controller.php": {
+          "type": "file",
+          "size": "1562"
+        },
+        "controllers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "finder.php": {
+          "type": "file",
+          "size": "487"
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "30"
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "router.php": {
+          "type": "file",
+          "size": "3952"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_mailto": {
+        "controller.php": {
+          "type": "file",
+          "size": "3866"
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mailto.php": {
+          "type": "file",
+          "size": "502"
+        },
+        "mailto.xml": {
+          "type": "file",
+          "size": "1011"
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_media": {
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "media.php": {
+          "type": "file",
+          "size": "624"
+        }
+      },
+      "com_menus": {
+        "controller.php": {
+          "type": "file",
+          "size": "1108"
+        },
+        "menus.php": {
+          "type": "file",
+          "size": "813"
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_modules": {
+        "controller.php": {
+          "type": "file",
+          "size": "1149"
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "modules.php": {
+          "type": "file",
+          "size": "967"
+        }
+      },
+      "com_newsfeeds": {
+        "controller.php": {
+          "type": "file",
+          "size": "1337"
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "newsfeeds.php": {
+          "type": "file",
+          "size": "563"
+        },
+        "router.php": {
+          "type": "file",
+          "size": "6014"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_osgallery": {
+        "assets": {
+          "type": "directory",
+          "truncated": true
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "44"
+        },
+        "osgallery.php": {
+          "type": "file",
+          "size": "1022"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_privacy": {
+        "controller.php": {
+          "type": "file",
+          "size": "1446"
+        },
+        "controllers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "privacy.php": {
+          "type": "file",
+          "size": "408"
+        },
+        "router.php": {
+          "type": "file",
+          "size": "1928"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_search": {
+        "controller.php": {
+          "type": "file",
+          "size": "2964"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "router.php": {
+          "type": "file",
+          "size": "2081"
+        },
+        "search.php": {
+          "type": "file",
+          "size": "406"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_sppagebuilder": {
+        "addons": {
+          "type": "directory",
+          "truncated": true
+        },
+        "assets": {
+          "type": "directory",
+          "truncated": true
+        },
+        "controller.php": {
+          "type": "file",
+          "size": "4414"
+        },
+        "controllers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "layouts": {
+          "type": "directory",
+          "truncated": true
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "parser": {
+          "type": "directory",
+          "truncated": true
+        },
+        "router.php": {
+          "type": "file",
+          "size": "1091"
+        },
+        "sppagebuilder.php": {
+          "type": "file",
+          "size": "823"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_spsimpleportfolio": {
+        "assets": {
+          "type": "directory",
+          "truncated": true
+        },
+        "controllers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "dispatcher.php": {
+          "type": "file",
+          "size": "282"
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "router.php": {
+          "type": "file",
+          "size": "813"
+        },
+        "spsimpleportfolio.php": {
+          "type": "file",
+          "size": "479"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_tags": {
+        "controller.php": {
+          "type": "file",
+          "size": "1401"
+        },
+        "controllers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "router.php": {
+          "type": "file",
+          "size": "4762"
+        },
+        "tags.php": {
+          "type": "file",
+          "size": "481"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_users": {
+        "controller.php": {
+          "type": "file",
+          "size": "3639"
+        },
+        "controllers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "helpers": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "layouts": {
+          "type": "directory",
+          "truncated": true
+        },
+        "models": {
+          "type": "directory",
+          "truncated": true
+        },
+        "router.php": {
+          "type": "file",
+          "size": "2313"
+        },
+        "users.php": {
+          "type": "file",
+          "size": "495"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "com_wrapper": {
+        "controller.php": {
+          "type": "file",
+          "size": "1023"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "router.php": {
+          "type": "file",
+          "size": "1847"
+        },
+        "views": {
+          "type": "directory",
+          "truncated": true
+        },
+        "wrapper.php": {
+          "type": "file",
+          "size": "408"
+        },
+        "wrapper.xml": {
+          "type": "file",
+          "size": "1155"
+        }
+      },
+      "index.html": {
+        "type": "file",
+        "size": "31"
+      }
+    },
+    "contact": {
+      "__next._full.txt": {
+        "type": "file",
+        "size": "7338"
+      },
+      "__next._head.txt": {
+        "type": "file",
+        "size": "2859"
+      },
+      "__next._index.txt": {
+        "type": "file",
+        "size": "2112"
+      },
+      "__next._tree.txt": {
+        "type": "file",
+        "size": "429"
+      },
+      "__next.contact.__PAGE__.txt": {
+        "type": "file",
+        "size": "1144"
+      },
+      "__next.contact.txt": {
+        "type": "file",
+        "size": "605"
+      }
+    },
+    "contact.html": {
+      "type": "file",
+      "size": "24124"
+    },
+    "contact.txt": {
+      "type": "file",
+      "size": "7338"
+    },
+    "crfing.org": {
+      "test-crfing-777.txt": {
+        "type": "file",
+        "size": "16"
+      },
+      "www": {
+        ".ftp-deploy-sync-state.json": {
+          "type": "file",
+          "size": "58035"
+        },
+        ".htaccess": {
+          "type": "file",
+          "size": "55"
+        },
+        "404.html": {
+          "type": "file",
+          "size": "22477"
+        },
+        "__next.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next._full.txt": {
+          "type": "file",
+          "size": "6916"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "358"
+        },
+        "_next": {
+          "type": "directory",
+          "truncated": true
+        },
+        "_not-found": {
+          "type": "directory",
+          "truncated": true
+        },
+        "_not-found.html": {
+          "type": "file",
+          "size": "22477"
+        },
+        "_not-found.txt": {
+          "type": "file",
+          "size": "7057"
+        },
+        "about": {
+          "type": "directory",
+          "truncated": true
+        },
+        "about-us": {
+          "type": "directory",
+          "truncated": true
+        },
+        "about.html": {
+          "type": "file",
+          "size": "29381"
+        },
+        "about.txt": {
+          "type": "file",
+          "size": "7334"
+        },
+        "contact": {
+          "type": "directory",
+          "truncated": true
+        },
+        "contact.html": {
+          "type": "file",
+          "size": "24124"
+        },
+        "contact.txt": {
+          "type": "file",
+          "size": "7338"
+        },
+        "event-gallery": {
+          "type": "directory",
+          "truncated": true
+        },
+        "event-gallery.html": {
+          "type": "file",
+          "size": "116845"
+        },
+        "event-gallery.txt": {
+          "type": "file",
+          "size": "7350"
+        },
+        "favicon.ico": {
+          "type": "file",
+          "size": "25931"
+        },
+        "file.svg": {
+          "type": "file",
+          "size": "391"
+        },
+        "globe.svg": {
+          "type": "file",
+          "size": "1035"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "27216"
+        },
+        "index.txt": {
+          "type": "file",
+          "size": "6916"
+        },
+        "insights": {
+          "type": "directory",
+          "truncated": true
+        },
+        "insights.html": {
+          "type": "file",
+          "size": "25001"
+        },
+        "insights.txt": {
+          "type": "file",
+          "size": "7340"
+        },
+        "next.svg": {
+          "type": "file",
+          "size": "1375"
+        },
+        "projects": {
+          "type": "directory",
+          "truncated": true
+        },
+        "projects.html": {
+          "type": "file",
+          "size": "25918"
+        },
+        "projects.txt": {
+          "type": "file",
+          "size": "7340"
+        },
+        "team": {
+          "type": "directory",
+          "truncated": true
+        },
+        "team.html": {
+          "type": "file",
+          "size": "25236"
+        },
+        "team.txt": {
+          "type": "file",
+          "size": "7332"
+        },
+        "test-deployment-123.txt": {
+          "type": "file",
+          "size": "23"
+        },
+        "test-www-777.txt": {
+          "type": "file",
+          "size": "16"
+        },
+        "vercel.svg": {
+          "type": "file",
+          "size": "128"
+        },
+        "window.svg": {
+          "type": "file",
+          "size": "385"
+        }
+      }
+    },
+    "event-gallery": {
+      "__next._full.txt": {
+        "type": "file",
+        "size": "7350"
+      },
+      "__next._head.txt": {
+        "type": "file",
+        "size": "2859"
+      },
+      "__next._index.txt": {
+        "type": "file",
+        "size": "2112"
+      },
+      "__next._tree.txt": {
+        "type": "file",
+        "size": "435"
+      },
+      "__next.event-gallery.__PAGE__.txt": {
+        "type": "file",
+        "size": "1144"
+      },
+      "__next.event-gallery.txt": {
+        "type": "file",
+        "size": "605"
+      },
+      "crfu-outreach-2010": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7780"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "517"
+        },
+        "__next.event-gallery.crfu-outreach-2010.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.event-gallery.crfu-outreach-2010.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.event-gallery.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "crfu-outreach-2010.html": {
+        "type": "file",
+        "size": "29931"
+      },
+      "crfu-outreach-2010.txt": {
+        "type": "file",
+        "size": "7780"
+      },
+      "crfu-outreach-2011": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7780"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "517"
+        },
+        "__next.event-gallery.crfu-outreach-2011.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.event-gallery.crfu-outreach-2011.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.event-gallery.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "crfu-outreach-2011.html": {
+        "type": "file",
+        "size": "29931"
+      },
+      "crfu-outreach-2011.txt": {
+        "type": "file",
+        "size": "7780"
+      },
+      "crfu-outreach-2012": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7780"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "517"
+        },
+        "__next.event-gallery.crfu-outreach-2012.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.event-gallery.crfu-outreach-2012.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.event-gallery.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "crfu-outreach-2012.html": {
+        "type": "file",
+        "size": "29931"
+      },
+      "crfu-outreach-2012.txt": {
+        "type": "file",
+        "size": "7780"
+      },
+      "crfu-outreach-2013": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7780"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "517"
+        },
+        "__next.event-gallery.crfu-outreach-2013.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.event-gallery.crfu-outreach-2013.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.event-gallery.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "crfu-outreach-2013.html": {
+        "type": "file",
+        "size": "29931"
+      },
+      "crfu-outreach-2013.txt": {
+        "type": "file",
+        "size": "7780"
+      },
+      "crfu-outreach-2014": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7780"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "517"
+        },
+        "__next.event-gallery.crfu-outreach-2014.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.event-gallery.crfu-outreach-2014.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.event-gallery.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "crfu-outreach-2014.html": {
+        "type": "file",
+        "size": "29931"
+      },
+      "crfu-outreach-2014.txt": {
+        "type": "file",
+        "size": "7780"
+      },
+      "crfu-outreach-2015": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7780"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "517"
+        },
+        "__next.event-gallery.crfu-outreach-2015.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.event-gallery.crfu-outreach-2015.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.event-gallery.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "crfu-outreach-2015.html": {
+        "type": "file",
+        "size": "29931"
+      },
+      "crfu-outreach-2015.txt": {
+        "type": "file",
+        "size": "7780"
+      },
+      "crfu-outreach-2020": {
+        "__next._full.txt": {
+          "type": "file",
+          "size": "7780"
+        },
+        "__next._head.txt": {
+          "type": "file",
+          "size": "2859"
+        },
+        "__next._index.txt": {
+          "type": "file",
+          "size": "2112"
+        },
+        "__next._tree.txt": {
+          "type": "file",
+          "size": "517"
+        },
+        "__next.event-gallery.crfu-outreach-2020.__PAGE__.txt": {
+          "type": "file",
+          "size": "1144"
+        },
+        "__next.event-gallery.crfu-outreach-2020.txt": {
+          "type": "file",
+          "size": "605"
+        },
+        "__next.event-gallery.txt": {
+          "type": "file",
+          "size": "605"
+        }
+      },
+      "crfu-outreach-2020.html": {
+        "type": "file",
+        "size": "29931"
+      },
+      "crfu-outreach-2020.txt": {
+        "type": "file",
+        "size": "7780"
+      }
+    },
+    "event-gallery.html": {
+      "type": "file",
+      "size": "116845"
+    },
+    "event-gallery.txt": {
+      "type": "file",
+      "size": "7350"
+    },
+    "favicon.ico": {
+      "type": "file",
+      "size": "25931"
+    },
+    "file.svg": {
+      "type": "file",
+      "size": "391"
+    },
+    "globe.svg": {
+      "type": "file",
+      "size": "1035"
+    },
+    "includes": {
+      "defines.php": {
+        "type": "file",
+        "size": "1029"
+      },
+      "framework.php": {
+        "type": "file",
+        "size": "3004"
+      },
+      "index.html": {
+        "type": "file",
+        "size": "31"
+      }
+    },
+    "index.html": {
+      "type": "file",
+      "size": "27216"
+    },
+    "index.txt": {
+      "type": "file",
+      "size": "6916"
+    },
+    "insights": {
+      "__next._full.txt": {
+        "type": "file",
+        "size": "7340"
+      },
+      "__next._head.txt": {
+        "type": "file",
+        "size": "2859"
+      },
+      "__next._index.txt": {
+        "type": "file",
+        "size": "2112"
+      },
+      "__next._tree.txt": {
+        "type": "file",
+        "size": "430"
+      },
+      "__next.insights.__PAGE__.txt": {
+        "type": "file",
+        "size": "1144"
+      },
+      "__next.insights.txt": {
+        "type": "file",
+        "size": "605"
+      }
+    },
+    "insights.html": {
+      "type": "file",
+      "size": "25001"
+    },
+    "insights.txt": {
+      "type": "file",
+      "size": "7340"
+    },
+    "layouts": {
+      "index.html": {
+        "type": "file",
+        "size": "31"
+      },
+      "joomla": {
+        "content": {
+          "type": "directory",
+          "truncated": true
+        },
+        "edit": {
+          "type": "directory",
+          "truncated": true
+        },
+        "editors": {
+          "type": "directory",
+          "truncated": true
+        },
+        "error": {
+          "type": "directory",
+          "truncated": true
+        },
+        "form": {
+          "type": "directory",
+          "truncated": true
+        },
+        "html": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "links": {
+          "type": "directory",
+          "truncated": true
+        },
+        "modal": {
+          "type": "directory",
+          "truncated": true
+        },
+        "pagination": {
+          "type": "directory",
+          "truncated": true
+        },
+        "quickicons": {
+          "type": "directory",
+          "truncated": true
+        },
+        "searchtools": {
+          "type": "directory",
+          "truncated": true
+        },
+        "sidebars": {
+          "type": "directory",
+          "truncated": true
+        },
+        "system": {
+          "type": "directory",
+          "truncated": true
+        },
+        "tinymce": {
+          "type": "directory",
+          "truncated": true
+        },
+        "toolbar": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "libraries": {
+        "cms": {
+          "type": "directory",
+          "truncated": true
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        }
+      },
+      "plugins": {
+        "editors": {
+          "type": "directory",
+          "truncated": true
+        },
+        "system": {
+          "type": "directory",
+          "truncated": true
+        },
+        "user": {
+          "type": "directory",
+          "truncated": true
+        }
+      }
+    },
+    "modules": {
+      "index.html": {
+        "type": "file",
+        "size": "31"
+      },
+      "mod_acymailing": {
+        "index.html": {
+          "type": "file",
+          "size": "44"
+        },
+        "mod_acymailing.php": {
+          "type": "file",
+          "size": "12076"
+        },
+        "mod_acymailing.xml": {
+          "type": "file",
+          "size": "23221"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_articles_archive": {
+        "helper.php": {
+          "type": "file",
+          "size": "2453"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_articles_archive.php": {
+          "type": "file",
+          "size": "648"
+        },
+        "mod_articles_archive.xml": {
+          "type": "file",
+          "size": "2306"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_articles_categories": {
+        "helper.php": {
+          "type": "file",
+          "size": "1032"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_articles_categories.php": {
+          "type": "file",
+          "size": "1213"
+        },
+        "mod_articles_categories.xml": {
+          "type": "file",
+          "size": "5127"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_articles_category": {
+        "helper.php": {
+          "type": "file",
+          "size": "14818"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_articles_category.php": {
+          "type": "file",
+          "size": "2621"
+        },
+        "mod_articles_category.xml": {
+          "type": "file",
+          "size": "17597"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_articles_latest": {
+        "helper.php": {
+          "type": "file",
+          "size": "3822"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_articles_latest.php": {
+          "type": "file",
+          "size": "632"
+        },
+        "mod_articles_latest.xml": {
+          "type": "file",
+          "size": "4091"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_articles_news": {
+        "helper.php": {
+          "type": "file",
+          "size": "5908"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_articles_news.php": {
+          "type": "file",
+          "size": "625"
+        },
+        "mod_articles_news.xml": {
+          "type": "file",
+          "size": "7434"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_articles_popular": {
+        "helper.php": {
+          "type": "file",
+          "size": "3138"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_articles_popular.php": {
+          "type": "file",
+          "size": "626"
+        },
+        "mod_articles_popular.xml": {
+          "type": "file",
+          "size": "4633"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_banners": {
+        "helper.php": {
+          "type": "file",
+          "size": "1695"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_banners.php": {
+          "type": "file",
+          "size": "835"
+        },
+        "mod_banners.xml": {
+          "type": "file",
+          "size": "4035"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_breadcrumbs": {
+        "helper.php": {
+          "type": "file",
+          "size": "2453"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_breadcrumbs.php": {
+          "type": "file",
+          "size": "765"
+        },
+        "mod_breadcrumbs.xml": {
+          "type": "file",
+          "size": "3397"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_custom": {
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_custom.php": {
+          "type": "file",
+          "size": "617"
+        },
+        "mod_custom.xml": {
+          "type": "file",
+          "size": "2576"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_feed": {
+        "helper.php": {
+          "type": "file",
+          "size": "905"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_feed.php": {
+          "type": "file",
+          "size": "793"
+        },
+        "mod_feed.xml": {
+          "type": "file",
+          "size": "4661"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_finder": {
+        "helper.php": {
+          "type": "file",
+          "size": "2395"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "30"
+        },
+        "mod_finder.php": {
+          "type": "file",
+          "size": "1803"
+        },
+        "mod_finder.xml": {
+          "type": "file",
+          "size": "5311"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_footer": {
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_footer.php": {
+          "type": "file",
+          "size": "988"
+        },
+        "mod_footer.xml": {
+          "type": "file",
+          "size": "1955"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_languages": {
+        "helper.php": {
+          "type": "file",
+          "size": "4057"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_languages.php": {
+          "type": "file",
+          "size": "709"
+        },
+        "mod_languages.xml": {
+          "type": "file",
+          "size": "4690"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_login": {
+        "helper.php": {
+          "type": "file",
+          "size": "1625"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_login.php": {
+          "type": "file",
+          "size": "818"
+        },
+        "mod_login.xml": {
+          "type": "file",
+          "size": "4113"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_menu": {
+        "helper.php": {
+          "type": "file",
+          "size": "6489"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_menu.php": {
+          "type": "file",
+          "size": "866"
+        },
+        "mod_menu.xml": {
+          "type": "file",
+          "size": "4452"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_random_image": {
+        "helper.php": {
+          "type": "file",
+          "size": "3014"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_random_image.php": {
+          "type": "file",
+          "size": "870"
+        },
+        "mod_random_image.xml": {
+          "type": "file",
+          "size": "2305"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_related_items": {
+        "helper.php": {
+          "type": "file",
+          "size": "4279"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_related_items.php": {
+          "type": "file",
+          "size": "975"
+        },
+        "mod_related_items.xml": {
+          "type": "file",
+          "size": "2449"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_search": {
+        "helper.php": {
+          "type": "file",
+          "size": "572"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_search.php": {
+          "type": "file",
+          "size": "1978"
+        },
+        "mod_search.xml": {
+          "type": "file",
+          "size": "4605"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_sp_flickrgallery": {
+        "assets": {
+          "type": "directory",
+          "truncated": true
+        },
+        "language": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_sp_flickrgallery.php": {
+          "type": "file",
+          "size": "1040"
+        },
+        "mod_sp_flickrgallery.xml": {
+          "type": "file",
+          "size": "2721"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_sppagebuilder": {
+        "fields": {
+          "type": "directory",
+          "truncated": true
+        },
+        "language": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_sppagebuilder.php": {
+          "type": "file",
+          "size": "466"
+        },
+        "mod_sppagebuilder.xml": {
+          "type": "file",
+          "size": "1919"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_spsimpleportfolio": {
+        "helper.php": {
+          "type": "file",
+          "size": "1477"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "54"
+        },
+        "language": {
+          "type": "directory",
+          "truncated": true
+        },
+        "mod_spsimpleportfolio.php": {
+          "type": "file",
+          "size": "1251"
+        },
+        "mod_spsimpleportfolio.xml": {
+          "type": "file",
+          "size": "3806"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_stats": {
+        "helper.php": {
+          "type": "file",
+          "size": "3576"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_stats.php": {
+          "type": "file",
+          "size": "696"
+        },
+        "mod_stats.xml": {
+          "type": "file",
+          "size": "3181"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_syndicate": {
+        "helper.php": {
+          "type": "file",
+          "size": "832"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_syndicate.php": {
+          "type": "file",
+          "size": "753"
+        },
+        "mod_syndicate.xml": {
+          "type": "file",
+          "size": "2226"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_tags_popular": {
+        "helper.php": {
+          "type": "file",
+          "size": "4254"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_tags_popular.php": {
+          "type": "file",
+          "size": "1013"
+        },
+        "mod_tags_popular.xml": {
+          "type": "file",
+          "size": "5021"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_tags_similar": {
+        "helper.php": {
+          "type": "file",
+          "size": "5099"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_tags_similar.php": {
+          "type": "file",
+          "size": "924"
+        },
+        "mod_tags_similar.xml": {
+          "type": "file",
+          "size": "2995"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_users_latest": {
+        "helper.php": {
+          "type": "file",
+          "size": "1523"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_users_latest.php": {
+          "type": "file",
+          "size": "671"
+        },
+        "mod_users_latest.xml": {
+          "type": "file",
+          "size": "2623"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_whosonline": {
+        "helper.php": {
+          "type": "file",
+          "size": "2686"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_whosonline.php": {
+          "type": "file",
+          "size": "778"
+        },
+        "mod_whosonline.xml": {
+          "type": "file",
+          "size": "2609"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      },
+      "mod_wrapper": {
+        "helper.php": {
+          "type": "file",
+          "size": "1412"
+        },
+        "index.html": {
+          "type": "file",
+          "size": "31"
+        },
+        "mod_wrapper.php": {
+          "type": "file",
+          "size": "1225"
+        },
+        "mod_wrapper.xml": {
+          "type": "file",
+          "size": "4008"
+        },
+        "tmpl": {
+          "type": "directory",
+          "truncated": true
+        }
+      }
+    },
+    "next.svg": {
+      "type": "file",
+      "size": "1375"
+    },
+    "projects": {
+      "__next._full.txt": {
+        "type": "file",
+        "size": "7340"
+      },
+      "__next._head.txt": {
+        "type": "file",
+        "size": "2859"
+      },
+      "__next._index.txt": {
+        "type": "file",
+        "size": "2112"
+      },
+      "__next._tree.txt": {
+        "type": "file",
+        "size": "430"
+      },
+      "__next.projects.__PAGE__.txt": {
+        "type": "file",
+        "size": "1144"
+      },
+      "__next.projects.txt": {
+        "type": "file",
+        "size": "605"
+      }
+    },
+    "projects.html": {
+      "type": "file",
+      "size": "25918"
+    },
+    "projects.txt": {
+      "type": "file",
+      "size": "7340"
+    },
+    "team": {
+      "__next._full.txt": {
+        "type": "file",
+        "size": "7332"
+      },
+      "__next._head.txt": {
+        "type": "file",
+        "size": "2859"
+      },
+      "__next._index.txt": {
+        "type": "file",
+        "size": "2112"
+      },
+      "__next._tree.txt": {
+        "type": "file",
+        "size": "426"
+      },
+      "__next.team.__PAGE__.txt": {
+        "type": "file",
+        "size": "1144"
+      },
+      "__next.team.txt": {
+        "type": "file",
+        "size": "605"
+      }
+    },
+    "team.html": {
+      "type": "file",
+      "size": "25236"
+    },
+    "team.txt": {
+      "type": "file",
+      "size": "7332"
+    },
+    "test-deployment-123.txt": {
+      "type": "file",
+      "size": "23"
+    },
+    "test-root-777.txt": {
+      "type": "file",
+      "size": "10"
+    },
+    "vercel.svg": {
+      "type": "file",
+      "size": "128"
+    },
+    "window.svg": {
+      "type": "file",
+      "size": "385"
+    }
+  }
+}
