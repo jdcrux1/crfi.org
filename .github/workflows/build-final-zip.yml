@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: '20'
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -40,10 +40,9 @@ jobs:
           FTP_USER: ${{ secrets.FTP_USERNAME }}
           FTP_PASS: ${{ secrets.FTP_PASSWORD }}
         run: |
-          python download_all_images.py
-          # Now move the downloaded images into the out directory
           mkdir -p frontend/out/images
-          cp -r frontend/public/images/* frontend/out/images/
+          cd frontend/out/images
+          wget -r -nH --cut-dirs=1 --user="$FTP_USER" --password="$FTP_PASS" "ftp://$FTP_HOST/images/" || true
 
       - name: Create Zip Archive
         run: |
