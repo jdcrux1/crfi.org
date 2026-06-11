@@ -32,15 +32,16 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./frontend/out/
-          server-dir: crfing.org/www/
+          server-dir: ./
           exclude: |
             **/.git*
             **/.git*/**
             **/node_modules/**
             images/**
+            media/**
 
       - name: Remove legacy index.php if present
         if: always()
         run: |
-          curl -s -u "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" "ftp://${{ secrets.FTP_HOST }}/crfing.org/www/index.php" -X DELETE || true
+          curl -s -u "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" "ftp://${{ secrets.FTP_HOST }}/index.php" -X DELETE || true
         shell: bash
