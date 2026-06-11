@@ -1,0 +1,58 @@
+name: Build Final Zip
+
+on:
+  push:
+    paths:
+      - 'download_all_images.py'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: npm ci
+        working-directory: ./frontend
+
+      - name: Build Next.js Site
+        run: npm run build
+        working-directory: ./frontend
+
+      - name: Download All Images from Old FTP
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USERNAME }}
+          FTP_PASS: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          python download_all_images.py
+          # Now move the downloaded images into the out directory
+          mkdir -p frontend/out/images
+          cp -r frontend/public/images/* frontend/out/images/
+
+      - name: Create Zip Archive
+        run: |
+          cd frontend/out
+          zip -r ../../crfisite_final.zip .
+
+      - name: Commit and Push Zip
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add crfisite_final.zip
+          git commit -m "Auto-build final zip with recovered images" || true
+          git push origin HEAD:main
